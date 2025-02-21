@@ -5,15 +5,16 @@ import { SlLocationPin } from "react-icons/sl";
 import { BsSearch } from "react-icons/bs";
 import { BiCart } from "react-icons/bi";
 import LowerHeader from './LowerHeader';
+import { Link } from 'react-router';
 
 const Header = () => {
   return (
     <div>
       <div className={styles.header_container}>
         <div className={styles.logo_container}>
-          <a href="/">
+          <Link to="/">
             <img src={AmazonLogo} alt="Amazon Logo" />
-          </a>
+          </Link>
           <div className={styles.delivery}>
             <span>
               <SlLocationPin />
@@ -32,25 +33,25 @@ const Header = () => {
           <BsSearch size={25} />
         </div>
         <div className={styles.order_container}>
-          <a href="" className={styles.language}>
+          <Link to="" className={styles.language}>
             <img src={USA_Flag} alt="USA_Flag" />
             <select name="" id="">
               <option value="">EN</option>
             </select>
-          </a>
+          </Link>
 
-          <a href="">
+          <Link to="/auth">
             <p>Sign In</p>
             <span>Account & Lists</span>
-          </a>
-          <a href="">
+          </Link>
+          <Link to="/orders">
             <p>returns</p>
             <span>& Orders</span>
-          </a>
-          <a href="/cart" className={styles.cart}>
+          </Link>
+          <Link to="/cart" className={styles.cart}>
             <BiCart size={35} />
             <span>0</span>
-          </a>
+          </Link>
         </div>
       </div>
       <LowerHeader />

@@ -2,11 +2,12 @@ const categoryData = [
   {
     title: "Electronics",
     name: "electronics",
-    imgLink: "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+    imgLink:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjMdypKp_bpJwA3RZZvLLgNvUBtVADUcVQ5SustjPmVbcmhbrkHa5PiFLPz79IcMKz3ng&usqp=CAU",
   },
   {
     title: "Men's Clothing",
-    name: "men's Clothing",
+    name: "men's clothing",
     imgLink: "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
   },
   {

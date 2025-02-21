@@ -6,6 +6,7 @@
 }
 .category img {
   width: 90%;
+  height: 70%;
   object-fit: contain;
   max-height: 250px;
   padding: 0 10px;
@@ -29,4 +30,5 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
+    margin-bottom: 4rem;
 }
