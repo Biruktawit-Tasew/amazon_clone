@@ -12,7 +12,7 @@ import { DataContext } from '../DataProvider/DataProvider';
 const Header = () => {
   const [{basket},dispatch] = useContext(DataContext);
   return (
-    <div>
+    <div className={styles.fixed}>
       <div className={styles.header_container}>
         <div className={styles.logo_container}>
           <Link to="/">
