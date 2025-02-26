@@ -1,12 +1,13 @@
 import React from 'react'
 import Header from '../Header/Header';
+import { Outlet } from 'react-router';
 
-const layout = ({children}) => {
+const layout = () => {
   return (
-    <div>
+    <>
       <Header />
-      {children}
-    </div>
+      <Outlet />
+    </>
   );
 }
 

@@ -25,8 +25,7 @@ const ProductCard = ({ product, flex, renderDesc ,renderAdd }) => {
   return (
     <div
       className={`${styles.card_container} ${
-        flex ? styles.product_flexed : ""
-      }`}
+        flex ? styles.product_flexed : ""}`}
     >
       <Link to={`/products/${id}`}>
         <img src={image} alt="" />

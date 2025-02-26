@@ -28,7 +28,7 @@ const Cart = () => {
     0
   );
   return (
-    <Layout>
+    <>
       <div className={styles.container}>
         <div className={styles.cart_container}>
           <h2>Hello</h2>
@@ -73,7 +73,7 @@ const Cart = () => {
           </div>
         )}
       </div>
-    </Layout>
+    </>
   );
 };
 

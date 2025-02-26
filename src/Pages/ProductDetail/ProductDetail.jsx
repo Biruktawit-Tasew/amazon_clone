@@ -24,7 +24,7 @@ const ProductDetail = () => {
       });
   }, []);
   return (
-    <Layout>
+    <>
       {isLoading ? (
         <Loader />
       ) : (
@@ -35,7 +35,7 @@ const ProductDetail = () => {
           renderAdd={true}
         />
       )}
-    </Layout>
+    </>
   );
 };
 
