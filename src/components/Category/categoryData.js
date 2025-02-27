@@ -8,17 +8,20 @@ const categoryData = [
   {
     title: "Men's Clothing",
     name: "men's clothing",
-    imgLink: "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+    imgLink:
+      "https://cdn-images.farfetch-contents.com/20/25/12/50/20251250_51363348_1000.jpg",
   },
   {
     title: "Jewelery",
     name: "jewelery",
-    imgLink: "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+    imgLink:
+      "https://i5.walmartimages.com/seo/Wedure-Wedding-Bridal-Jewelery-for-Women-Austrian-Crystal-Teardrop-Cluster-Statement-Necklace-Dangle-Earrings-Link-Bracelet-Set-Champagne-Gold-Tone_26a87916-646b-4466-ae41-81ead1c8a037.14300b36bfd03ae6bf1f1379930f93d8.jpeg",
   },
   {
     title: "Women's clothing",
     name: "women's clothing",
-    imgLink: "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+    imgLink:
+      "https://cdn-images.farfetch-contents.com/22/37/10/89/22371089_52406413_1000.jpg",
   },
 ];
 

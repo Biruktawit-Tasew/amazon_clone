@@ -28,7 +28,7 @@ const Results = () => {
       });
   }, []);
   return (
-    <Layout>
+    <>
       {isLoading ? (
         <Loader />
       ) : (
@@ -47,7 +47,7 @@ const Results = () => {
           </div>
         </div>
       )}
-    </Layout>
+    </>
   );
 };
 
