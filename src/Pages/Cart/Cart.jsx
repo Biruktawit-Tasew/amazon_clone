@@ -24,7 +24,7 @@ const Cart = () => {
     });
 
   const total = basket.reduce(
-    (amount, item) => item.price + item.amount + amount,
+    (amount, item) => item.price * item.amount + amount,
     0
   );
   return (
