@@ -1,10 +1,13 @@
 {
+  "homepage": "https://Biruktawit-Tasew.github.io/amazon-clone/",
   "name": "amazon_clone",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -17,6 +20,7 @@
     "@stripe/stripe-js": "^5.7.0",
     "axios": "^1.8.1",
     "firebase": "^11.3.1",
+    "gh-pages": "^6.3.0",
     "numeral": "^2.0.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
