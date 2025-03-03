@@ -7,7 +7,7 @@
 
 }
 .container img {
-    width: 100px;
+    width: 200px;
 }
 .container div:not(.subtotal) {
     height: auto !important;

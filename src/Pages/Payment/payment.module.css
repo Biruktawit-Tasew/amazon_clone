@@ -11,7 +11,6 @@
 
 .flex {
   display: flex;
-  gap: 20px;
   padding: 30px;
 }
 
@@ -19,11 +18,17 @@
   min-width: 300px;
 }
 .flex img {
-  width: 80px;
+  width: 9em;
 }
 
 .flex div {
   height: auto;
+  
+}
+.payment_items {
+    margin-top: -4em;
+    margin-left: -9em;
+
 }
 
 .payment_card_container {
@@ -54,3 +59,17 @@
 .payment_details button:hover {
    background: var(--primary-shade);
  }
+.processing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: rgb(57,57,57);
+}
+ @media screen and (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+    }
+ }
+
+ 
